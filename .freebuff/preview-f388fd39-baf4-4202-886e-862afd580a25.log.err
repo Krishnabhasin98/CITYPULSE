@@ -1,5 +1,0 @@
-INFO:     Started server process [26528]
-INFO:     Waiting for application startup.
-2026-09-14 20:51:54,164 INFO citypulse: CityPulse 2.0.0 starting with {'app': 'CityPulse', 'version': '2.0.0', 'environment': 'development', 'database': 'sqlite:///C:/Users/lenovo/Desktop/HACKVIPS/CityPulse/backend/citypulse.db', 'database_kind': 'sqlite', 'live_data_enabled': True, 'cache_dir': 'C:\\Users\\lenovo\\Desktop\\HACKVIPS\\CityPulse\\backend\\.cache', 'cluster_radius_m': 180.0, 'cors_origins': ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:4173', 'http://127.0.0.1:4173'], 'jwt_secret_is_default': True, 'serve_frontend': True}
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8100 (Press CTRL+C to quit)
