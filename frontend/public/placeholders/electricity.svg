@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Illustrative electricity hazard graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141019"/>
+      <stop offset="100%" stop-color="#2a2233"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#3b4759" stroke-width="5" fill="none">
+    <path d="M250 500 V150"/>
+    <path d="M550 500 V150"/>
+  </g>
+  <g stroke="#B7791F" stroke-width="6" fill="none">
+    <path d="M250 190 H550"/>
+    <path d="M290 240 C380 300 420 200 510 260"/>
+    <path d="M280 300 C360 340 440 260 520 320"/>
+  </g>
+  <polygon points="400,150 340,290 385,290 350,400 465,240 410,240 450,150" fill="#F2C14E"/>
+  <circle cx="250" cy="190" r="10" fill="#0b1220" stroke="#B7791F" stroke-width="4"/>
+  <circle cx="550" cy="190" r="10" fill="#0b1220" stroke="#B7791F" stroke-width="4"/>
+  <text x="400" y="92" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#E5E9F0">
+    Electricity
+  </text>
+  <text x="400" y="124" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" fill="#8A93A1">
+    no photo attached to this report
+  </text>
+</svg>

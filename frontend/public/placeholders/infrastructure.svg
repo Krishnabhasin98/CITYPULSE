@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Illustrative road and pothole graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <path d="M0 360 L360 200 L800 380 L800 500 L0 500 Z" fill="#1b2433"/>
+  <path d="M120 500 L400 230 L700 500 Z" fill="#273244"/>
+  <path d="M400 230 L330 500 H470 Z" fill="#111a29"/>
+  <g stroke="#2457D6" stroke-width="6" stroke-linecap="round">
+    <path d="M400 300 V330"/>
+    <path d="M400 370 V400"/>
+    <path d="M400 440 V470"/>
+  </g>
+  <ellipse cx="400" cy="352" rx="62" ry="22" fill="#0b1220" stroke="#C73E3E" stroke-width="4"/>
+  <text x="400" y="92" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#E5E9F0">
+    Infrastructure
+  </text>
+  <text x="400" y="124" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" fill="#8A93A1">
+    no photo attached to this report
+  </text>
+</svg>

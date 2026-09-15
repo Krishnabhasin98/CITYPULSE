@@ -1,0 +1,30 @@
+# --- Python ----------------------------------------------------------------
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- local secrets ----------------------------------------------------------
+.env
+.env.local
+*.pem
+
+# --- runtime data -----------------------------------------------------------
+# The database, uploaded evidence and HTTP cache are all local state.
+*.db
+*.db-shm
+*.db-wal
+backend/citypulse.db*
+backend/uploads/
+backend/.cache/
+.cache/
+data/
+database/
+.tmp-*
+
+# --- frontend ---------------------------------------------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/

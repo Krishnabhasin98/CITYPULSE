@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Illustrative water leak graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1720"/>
+      <stop offset="100%" stop-color="#152736"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="0" y="392" width="800" height="108" fill="#101d28"/>
+  <path d="M250 200 H560" stroke="#0E7490" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="250" cy="200" r="20" fill="none" stroke="#0E7490" stroke-width="10"/>
+  <path d="M380 214 c0 0 -34 46 -34 74 a34 34 0 0 0 68 0 c0 -28 -34 -74 -34 -74 z" fill="#3FB6D3" opacity="0.85"/>
+  <g stroke="#3FB6D3" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M470 250 q30 18 0 36"/>
+    <path d="M520 264 q30 18 0 36"/>
+  </g>
+  <ellipse cx="380" cy="392" rx="150" ry="16" fill="#0b1a24"/>
+  <text x="400" y="92" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#E5E9F0">
+    Water
+  </text>
+  <text x="400" y="124" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" fill="#8A93A1">
+    no photo attached to this report
+  </text>
+</svg>

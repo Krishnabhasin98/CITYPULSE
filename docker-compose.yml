@@ -1,0 +1,50 @@
+services:
+  citypulse:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: citypulse:latest
+    container_name: citypulse
+    restart: unless-stopped
+    ports:
+      - "${CITYPULSE_PORT:-8000}:8000"
+    environment:
+      # production mode disables the one-click demo sign-in and enforces a real secret.
+      APP_ENV: ${APP_ENV:-production}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?set JWT_SECRET_KEY in .env (see .env.example)}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+
+      DATABASE_URL: ${DATABASE_URL:-sqlite:////data/citypulse.db}
+      UPLOAD_DIR: /data/uploads
+      CITYPULSE_CACHE_DIR: /data/cache
+
+      # Live, key-free external signals (OpenStreetMap + Open-Meteo).
+      ENABLE_LIVE_DATA: ${ENABLE_LIVE_DATA:-true}
+      OVERPASS_ENABLED: ${OVERPASS_ENABLED:-true}
+      CITYPULSE_USER_AGENT: ${CITYPULSE_USER_AGENT:-CityPulse/2.0 (self-hosted civic reporting)}
+
+      # Browsers hitting the published port directly; CORS is only needed if a
+      # separate frontend origin is used, so the default list stays local.
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+      SERVE_FRONTEND: "true"
+
+      # Background deadline sweep.
+      ENABLE_SCHEDULER: ${ENABLE_SCHEDULER:-true}
+      SCHEDULER_INTERVAL_SECONDS: ${SCHEDULER_INTERVAL_SECONDS:-300}
+
+      CLUSTER_RADIUS_METERS: ${CLUSTER_RADIUS_METERS:-180}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-10080}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-password123}
+      SEED_DEMO_DATA: ${SEED_DEMO_DATA:-true}
+    volumes:
+      # Everything mutable lives on one volume: database, uploads and HTTP cache.
+      - citypulse-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+volumes:
+  citypulse-data:

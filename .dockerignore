@@ -1,0 +1,35 @@
+.git
+.gitignore
+.github
+.freebuff
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Databases and runtime data
+*.db
+*.db-shm
+*.db-wal
+data/
+database/
+backend/citypulse.db*
+backend/uploads/
+backend/.cache/
+.cache-live-check/
+.tmp-live-check.db*
+
+# Node / frontend build output (rebuilt inside the image)
+frontend/node_modules/
+frontend/dist/
+
+# Local config and docs not needed at runtime
+.env
+**/.env
+docker-compose.yml
+Dockerfile
+README.md

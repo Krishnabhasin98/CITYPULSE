@@ -1,0 +1,148 @@
+INFO:     127.0.0.1:59418 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /city-health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59429 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59430 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET /assets/index-BVZmRe4_.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /assets/index-D0y78Wn8.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /assets/ui-BvAtDbL2.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /assets/Home-Bjar2fLO.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET /assets/IncidentCard-BWHbeKQj.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /assets/arrow-right-BqOxK2jy.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59437 - "GET /assets/clock-DDXE9NG3.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59439 - "GET /assets/EvidenceImage-9wglrvIh.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59438 - "GET /assets/layers-DqW35fa_.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /assets/hooks-DK5z7OFW.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /assets/users-BmDQKwCc.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET /assets/sparkles-ILyrT9bX.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59439 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59439 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59439 - "GET /api/incidents/?limit=200 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET /placeholders/infrastructure.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /placeholders/electricity.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /placeholders/water.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51547 - "GET /city-health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51547 - "GET /assets/CityHealth-zuif9HKk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51547 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51547 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51549 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51547 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54282 - "GET /assets/Home-Bjar2fLO.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54283 - "GET /assets/arrow-right-BqOxK2jy.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54284 - "GET /assets/IncidentCard-BWHbeKQj.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54283 - "GET /assets/EvidenceImage-9wglrvIh.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54284 - "GET /assets/sparkles-ILyrT9bX.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54282 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54284 - "GET /api/incidents/?limit=200 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54283 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /assets/LiveMap-wvhiJEz3.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54283 - "GET /assets/IncidentMap-CeWyFGzV.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54284 - "GET /assets/search-BprZpktk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /assets/IncidentMap-vh-t_kPv.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /api/incidents/?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /assets/AreaIntelligence-QzGxEOZW.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54283 - "GET /assets/compass-DBkfnGv6.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54284 - "GET /assets/crosshair-zclL7pBf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54284 - "GET /assets/thermometer-BgSWB2v9.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54283 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54284 - "GET /api/area/analyze?query=110001&deep=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54289 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /assets/AuthorityDashboard-CQaj4y-G.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54289 - "GET /assets/clipboard-check-CdhMy8Uk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54289 - "GET /api/incidents/queue?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /api/incidents/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54295 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /api/incidents/actions/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54295 - "GET /assets/Departments-BEoL55-r.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54295 - "GET /api/incidents/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54295 - "GET /assets/PolicyLab-DCY3ZwnT.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54295 - "GET /api/incidents/policy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /assets/Forecasts-Ccn1TJno.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /assets/cloud-rain-zRA3eS_o.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54294 - "GET /api/incidents/forecasts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54431 - "GET /assets/Report-BMssmnOl.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /api/incidents/?limit=200 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54431 - "GET /api/area/resolve?lat=0&lon=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54431 - "GET /assets/CitizenCredits-CUUSnPTN.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /assets/trophy-DUa8ePWE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54431 - "GET /api/incidents/credits/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /api/auth/ledger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /assets/Activity-DsLRBS4U.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54431 - "GET /api/auth/ledger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54438 - "GET /api/incidents/?limit=300 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /api/posts/mine HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /assets/Assistant-ClOnfQdn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /api/assistant/suggestions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54438 - "GET /api/assistant/?q=Which+incidents+in+Delhi+are+past+their+response+deadline%3F HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /assets/zap-DZD2h76B.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54438 - "GET /assets/Profile-DaEsr_Gc.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /api/posts/mine HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54438 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54442 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54440 - "GET /api/incidents/?limit=200 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54441 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54443 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54443 - "GET /api/incidents/?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54441 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54443 - "GET /api/area/analyze?query=110001&deep=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54443 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54441 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54443 - "GET /api/incidents/queue?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63226 - "GET /api/incidents/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63227 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54441 - "GET /api/incidents/actions/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54441 - "GET /api/incidents/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63240 - "GET /api/incidents/?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63243 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63240 - "GET /api/area/analyze?query=110001&deep=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63243 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63240 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63253 - "GET /api/incidents/queue?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63255 - "GET /api/incidents/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63256 - "GET /api/incidents/scorecard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63254 - "GET /api/incidents/actions/pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63254 - "GET /api/incidents/departments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63254 - "GET /api/incidents/policy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63256 - "GET /api/incidents/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63255 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63256 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63255 - "GET /api/incidents/forecasts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49985 - "GET /api/incidents/?limit=200 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49984 - "GET /api/area/resolve?lat=0&lon=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49986 - "GET /api/incidents/credits/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49987 - "GET /api/auth/ledger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49986 - "GET /api/auth/ledger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61306 - "GET /api/incidents/?limit=300 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49987 - "GET /api/posts/mine HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49987 - "GET /api/assistant/suggestions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61306 - "GET /api/assistant/?q=Which+incidents+in+Delhi+are+past+their+response+deadline%3F HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61306 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49987 - "GET /api/posts/mine HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61318 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61318 - "GET /assets/index-BVZmRe4_.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61319 - "GET /assets/index-D0y78Wn8.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61320 - "GET /assets/ui-BvAtDbL2.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61319 - "GET /assets/arrow-right-BqOxK2jy.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61318 - "GET /assets/clock-DDXE9NG3.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61320 - "GET /assets/Home-Bjar2fLO.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61318 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61320 - "GET /assets/layers-DqW35fa_.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61319 - "GET /assets/IncidentCard-BWHbeKQj.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61322 - "GET /assets/EvidenceImage-9wglrvIh.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61319 - "GET /assets/hooks-DK5z7OFW.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61320 - "GET /assets/users-BmDQKwCc.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61318 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61320 - "GET /assets/sparkles-ILyrT9bX.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61319 - "GET /api/area/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61320 - "GET /api/incidents/?limit=200 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61322 - "GET /api/area/monsoon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61318 - "GET /api/incidents/health HTTP/1.1" 200 OK

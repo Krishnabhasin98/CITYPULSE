@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Illustrative civic incident graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#3b4759" stroke-width="6" fill="none">
+    <rect x="240" y="220" width="140" height="180" rx="8"/>
+    <rect x="410" y="160" width="150" height="240" rx="8"/>
+    <path d="M280 220 v-40 h60 v40"/>
+    <path d="M450 160 v-46 h70 v46"/>
+  </g>
+  <g fill="#2457D6" opacity="0.7">
+    <rect x="264" y="250" width="26" height="26" rx="4"/>
+    <rect x="330" y="250" width="26" height="26" rx="4"/>
+    <rect x="264" y="310" width="26" height="26" rx="4"/>
+    <rect x="436" y="196" width="28" height="28" rx="4"/>
+    <rect x="500" y="196" width="28" height="28" rx="4"/>
+    <rect x="436" y="260" width="28" height="28" rx="4"/>
+    <rect x="500" y="260" width="28" height="28" rx="4"/>
+  </g>
+  <text x="400" y="92" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#E5E9F0">
+    Civic incident
+  </text>
+  <text x="400" y="124" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" fill="#8A93A1">
+    no photo attached to this report
+  </text>
+</svg>
