@@ -28,3 +28,11 @@ database/
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Local tools/cache
+.freebuff/
